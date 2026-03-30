@@ -3,17 +3,15 @@
 
 # 1. Capture system info into variables
 USER_NAME=$(whoami)
-SHELL_PATH=$SHELL
 OS_TYPE=$(uname -o)
 
 echo "--- SYSTEM IDENTITY REPORT ---"
 echo "Current User: $USER_NAME"
-echo "Current Shell: $SHELL_PATH"
 echo "Operating System: $OS_TYPE"
 
-# 2. If-then-else logic to check for root privileges
+# 2. Check for administrative privileges (Unit 2 concept)
 if [ "$USER_NAME" == "root" ]; then
-    echo "Access Level: Administrative (Root)"
+    echo "Privilege Level: Administrative (Full Database Access)"
 else
-    echo "Access Level: Standard User"
+    echo "Privilege Level: Standard User (Limited MySQL Access)"
 fi
