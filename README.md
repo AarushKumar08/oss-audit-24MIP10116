@@ -1,8 +1,8 @@
 Open Source Software Audit: MySQL
 
-Repository Name: oss-audit-[Your-Registration-Number]
+Repository Name: oss-audit-24MIP10116
 Student Name: Aarush Kumar
-Registration Number: [Your Registration Number]
+Registration Number: 24MIP10116
 Course: Open Source Software (NGMC Course)
 Software Choice: MySQL
 
