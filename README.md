@@ -101,8 +101,8 @@ Root / sudo access (required for log reading)
 mysql-server installed (for Script 2 detection)
 Step-by-Step Setup
 1. Clone the Repository
-git clone https://github.com/[Your-GitHub-Username]/oss-audit-[Your-Registration-Number].git
-cd oss-audit-[Your-Registration-Number]
+git clone https://github.com/[Your-GitHub-Username]/oss-audit-24MIP10116.git
+cd oss-audit-24MIP10116
 
 2. Grant Execution Permissions
 chmod +x *.sh
@@ -114,7 +114,7 @@ Use:
 ./filename.sh
 
 
-(as shown in each section above)
+
 
 📦 Dependencies
 Shell: GNU Bash
