@@ -1,124 +1,75 @@
-Open Source Software Audit: MySQL
-
-Repository Name: oss-audit-24MIP10116
-Student Name: Aarush Kumar
+OSS Project – 24MIP10116
+Student Details
+Name: Aarush Kumar
 Registration Number: 24MIP10116
-Course: Open Source Software (NGMC Course)
-Software Choice: MySQL
+Chosen Software
 
-📑 Project Overview
+For this project, I chose Git, which is a version control system. It helps track changes in files and allows multiple people to work on the same project simultaneously without conflicts. It’s widely used in software development for collaboration and version management.
 
-This repository contains the technical shell scripting component of "The Open Source Audit" capstone project.
+About the Project
 
-The project focuses on MySQL, a relational database known for its unique GPL v2 / Commercial dual-license model.
+In this project, I explored the concept of Open Source Software (OSS). I learned about Git’s background, its licensing, and how it is used in real-world development.
 
-The included scripts demonstrate:
+Along with the theoretical part, I also created a set of shell scripts to demonstrate basic Linux commands and system operations in a practical way.
 
-Practical Linux system administration
-Automation techniques
-Core open-source philosophies like transparency and collaboration
-🛠️ Script Documentation
-1. System Identity Report (system_identity.sh)
+Shell Scripts
+Script 1 – System Identity Report
 
-Purpose:
-Acts as a system welcome screen displaying:
+This script displays basic system information such as:
 
-Distribution name
 Kernel version
 Current user
-Home directory
 System uptime
-
-Concepts Used:
-Variables, echo, command substitution $(), output formatting
+Current date and time
 
 Run:
 
-./system_identity.sh
+bash script1.sh
 
-2. FOSS Package Inspector (pkg_inspector.sh)
+Script 2 – FOSS Package Inspector
 
-Purpose:
-
-Checks if MySQL is installed
-Retrieves version
-Uses a case statement to describe the package philosophically
-
-Concepts Used:
-if-then-else, case, dpkg -l / rpm -q, grep
+This script checks whether Git is installed on the system and displays its version and related details.
 
 Run:
 
-./pkg_inspector.sh
+bash script2.sh
 
-3. Disk and Permission Auditor (disk_auditor.sh)
+Script 3 – Disk and Permission Auditor
 
-Purpose:
-Loops through critical system and MySQL directories to report:
+This script examines important directories and shows:
 
+Their permissions
 Disk usage
-Ownership
-Permissions
-
-Concepts Used:
-for loop, df, ls -ld, awk / cut
 
 Run:
 
-./disk_auditor.sh
+bash script3.sh
 
-4. Log File Analyzer (log_analyzer.sh)
+Script 4 – Log File Analyzer
 
-Purpose:
-Reads a log file line-by-line and counts occurrences of a keyword (e.g., "ERROR").
-
-Concepts Used:
-while-read loop, if-then, counters, command-line arguments $1
+This script reads a log file and counts how many times a specific keyword appears in it.
 
 Run:
 
-./log_analyzer.sh /var/log/mysql/error.log ERROR
+bash script4.sh /var/log/syslog
 
-5. Open Source Manifesto Generator (manifesto_gen.sh)
+Script 5 – Open Source Manifesto Generator
 
-Purpose:
-
-Asks user 3 questions interactively
-Generates a personalized open-source philosophy
-Saves output to a .txt file
-
-Concepts Used:
-read, string concatenation, file writing (>), date
+This script interacts with the user by asking a few questions and then generates a text file based on the responses.
 
 Run:
 
-./manifesto_gen.sh
+bash script5.sh
 
-🚀 Execution Instructions
-Prerequisites
-Linux environment (Ubuntu/Debian or VM)
-Root / sudo access (required for log reading)
-mysql-server installed (for Script 2 detection)
-Step-by-Step Setup
-1. Clone the Repository
-git clone https://github.com/AarushKumar08/oss-audit-24MIP10116.git
-cd oss-audit-24MIP10116
-
-2. Grant Execution Permissions
-chmod +x *.sh
-
-3. Run the Scripts
-
-Use:
-
-./filename.sh
-
-
-
-
-📦 Dependencies
-Shell: GNU Bash
-Utilities: grep, awk, cut, df, ls, uptime, whoami
-Package Manager:
-dpkg (Debian/Ubuntu)
+Requirements
+A Linux-based system
+Bash shell
+Git installed
+Steps to Run
+Open the terminal
+Navigate to the folder containing the scripts
+Run the scripts using the bash command
+Notes
+All scripts have been tested in a Linux environment
+Proper comments are included in each script to make them easy to understand
 rpm (RHEL/CentOS)
