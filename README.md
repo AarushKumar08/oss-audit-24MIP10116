@@ -72,7 +72,3 @@ Steps to Run
 Open the terminal
 Navigate to the folder containing the scripts
 Run the scripts using the bash command
-Notes
-All scripts have been tested in a Linux environment
-Proper comments are included in each script to make them easy to understand
-rpm (RHEL/CentOS)
