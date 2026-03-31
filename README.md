@@ -1,9 +1,12 @@
 OSS Project – 24MIP10116
+
+
 Student Details
 Name: Aarush Kumar
 Registration Number: 24MIP10116
-Chosen Software
 
+
+Chosen Software
 For this project, I chose Git, which is a version control system. It helps track changes in files and allows multiple people to work on the same project simultaneously without conflicts. It’s widely used in software development for collaboration and version management.
 
 About the Project
